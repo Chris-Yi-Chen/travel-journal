@@ -6,7 +6,7 @@ export default function Header() {
             <header>
                 <nav>
                     <img className="globeIcon" src={globeIcon} alt='globe icon'></img>
-                    <span>my travel journal</span>
+                    <span>my travel journal.</span>
                 </nav>
             </header>
         </>
