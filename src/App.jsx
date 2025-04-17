@@ -8,7 +8,7 @@ function App() {
     const entryElements = data.map(function(data) {
         return <Entry
             key={data.id}
-            data={data}
+            {...data}
         />
 
     })
