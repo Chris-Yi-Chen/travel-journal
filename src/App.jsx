@@ -15,7 +15,11 @@ function App() {
     return (
         <>
             <Header />
-            {entryElements}
+            <div className='journal-entry-container'>
+                <div className='journal-entry-panel'>
+                    {entryElements}
+                </div>
+            </div>
         </>
     )
 }

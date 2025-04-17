@@ -25,10 +25,21 @@ header span {
     font-size: 0.9rem;
 }
 
+/* Entry Container */
+.journal-entry-container {
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 /* Entry */
 .journal-entry {
-    margin: 5%;
+    margin: 25px 0 ;
     display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
 }
 .main-image-container {
     height: 168px;
