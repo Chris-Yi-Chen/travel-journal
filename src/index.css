@@ -32,10 +32,14 @@ header span {
     display: flex;
     justify-content: center;
 }
-
+.journal-entry-panel {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+}
 /* Entry */
 .journal-entry {
-    margin: 25px 0 ;
+    margin: 12.5px 0 ;
     display: flex;
     width: 500px;
     align-items: center;
@@ -73,15 +77,16 @@ header span {
 .journal-info-container .country {
     font-size: 0.7rem;
     margin-right: 12px;
-
+    text-transform: uppercase;
 }
 .journal-info-container .entry-title {
     margin-top: 7px;
-    margin-bottom: 17px; 
+    margin-bottom: 0%; 
 }
 .journal-info-container .entry-dates {
+    margin-top: 5px;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 .journal-info-container p.entry-description {
     line-height: 1.5;

@@ -1,38 +1,41 @@
+import vancouverIsland from "/imgs/VancouverIsland.jpg"
+import taiwan from "/imgs/Taiwan.png"
+import biking from "/imgs/Biking.jpg"
 export default [
     {
         id: 1,
         img: {
-            src: "https://scrimba.com/links/travel-journal-japan-image-url",
-            alt: "Mount Fuji"
+            src: vancouverIsland,
+            alt: "Vancouver Island"
         },
-        title: "Mount Fuji",
-        country: "Japan",
-        googleMapsLink: "https://maps.app.goo.gl/6RLYZDuuuqJ7kNGZ9",
-        dates: "12 Jan, 2021 - 24 Jan, 2021",
-        text: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
+        title: "Vancouver",
+        country: "Canada",
+        googleMapsLink: "https://maps.app.goo.gl/6kXkotQP8XahWS538",
+        dates: "30 Aug, 2021 - 23 Sept, 2024",
+        text: "Family trip along Vancouver, Victoria, and Whistler.\n + A roadtrip from CA --> Vancouver Island w/ friends"
     },
     {
         id: 2,
         img: {
-            src: "https://scrimba.com/links/travel-journal-australia-image-url",
-            alt: "Sydney Opera House"
+            src: taiwan,
+            alt: "Taiwan"
         },
-        title: "Sydney Opera House",
-        country: "Australia",
-        googleMapsLink: "https://maps.app.goo.gl/Zr17SCrsJeCEKMd36",
-        dates: "27 May, 2021 - 8 Jun, 2021",
-        text: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings."
+        title: "Chengdu, Sichuan",
+        country: "China-Taiwan",
+        googleMapsLink: "https://maps.app.goo.gl/iVMqVjq2eK87J7gz7",
+        dates: "16 Dec, 2024 - 18 Jan, 2025",
+        text: "Annual visit of our relatvies in Taiwan/China + Explored Chengdu, China. Practiced vlogging in Taiwan, but I don't think those will ever see the light of day."
     },
     {
         id: 3,
         img: {
-            src: "https://scrimba.com/links/travel-journal-norway-image-url",
-            alt: "Geirangerfjord"
+            src: biking,
+            alt: "Taiwan"
         },
-        title: "Geirangerfjord",
-        country: "Norway",
-        googleMapsLink: "https://maps.app.goo.gl/fhkJuBhmFDv47tiB7",
-        dates: "01 Oct, 2021 - 18 Nov, 2021",
-        text: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality."
+        title: "Biking around the Island",
+        country: "Taiwan",
+        googleMapsLink: "https://maps.app.goo.gl/DcpCFkHWroXjSVXM6",
+        dates: "18 Jan, 2025 - 3 Feb, 2025",
+        text: "Traveled around the entire island on bike + help of public transport. Lots of food poisoning and minor injuries on journey. Memorable time and very peaceful."
     },
 ]
